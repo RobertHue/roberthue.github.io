@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document describing the style of the menu/horizontal top navigation bar */
+
+
+/*  */
+/* all a (link) elements which are direct children of .inhalt which is inside of .menu */
+/*  
+.menu .inhalt > a{
+	color:black;
+	text-decoration:none;	removes underlining of links 
+	margin: 0px 20px 0px 0px;
+	font-size:30px;
+}
+
+.menu .inhalt > a:hover{
+	text-decoration:underline;	
+}
+
+
+
+.menu{
+width:760px;
+min-height:0px;	
+margin:auto;
+}*/
+
+
+/**********************************************/
+
+div #Rahmen{
+	background-color:#222222;
+	margin:auto;
+	width=780px;
+
+	padding: 0.8em;
+}
+div#Rahmen div{
+	clear:left;			
+}
+ul#Navigation{
+	margin:0px; padding:0px;	
+	text-align:center;
+}
+ul#Navigation li{
+	list-style:none;    
+	float: left; 
+	/* ohne width - nach CSS 2.1 erlaubt */
+	position:relative;
+	margin:0.4em; padding:0px;	
+}
+
+
+/**********************************************/
+
+ul#Navigation li ul {
+	margin: 0; padding: 0;
+	position: absolute;
+	top: 1.7em; left: -0.4em;    
+	display: none;  /* Unternavigation ausblenden */
+}   
+ul#Navigation li:hover ul {
+	display: block;  
+	/* Unternavigation in modernen Browsern einblenden */
+}
+ul#Navigation li ul li {
+	float: none;
+	display: block;
+	margin-bottom: 0.2em;
+}
+
+/**********************************************/
+
+ul#Navigation a, ul#Navigation span {
+	display: block;    
+	width: 6.4em;  
+	/* Breite den in li enthaltenen Elementen zuweisen */
+	padding: 0.7em 2em;
+	text-decoration: none; 
+	font-weight: bold;
+	border: 1px solid black;
+	border-left-color: white; 
+	border-top-color: white;
+	color: #CC3300; 
+
+	background-image:url(./header_BG.png);
+	background-position:center;
+} 
+ul#Navigation a:hover, ul#Navigation span, li a#aktuell {
+	border-color: white;
+	border-left-color: black; 
+	border-top-color: black;
+	color: #FFD; 
+	background-color: gray;
+}  
+ul#Navigation li ul span {  
+/* aktuelle Unterseite kennzeichnen */
+background-color: maroon;
+}
+
+
+/**********************************************/
+
+/* Erweiterung zur dynamischen Ein-/Ausblendung */
+ul#Navigation li>ul {
+	display: none; top: 1.6em;
+}
+ul#Navigation li:hover>ul, ul#Navigation li>a#aktuell+ul {
+	display: block;
+}s

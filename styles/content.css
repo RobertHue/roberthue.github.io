@@ -1,0 +1,23 @@
+/* style-sheet CSS describing the contents styles
+
+usage:
+	add 
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+	into the head tag
+ */
+
+/* place new images in the center as block */
+.main .inhalt img {
+	display: block;
+	padding: 0px 0px 0px 0px;
+	border: 4px solid transparent;
+	margin: 0 auto;
+}
+
+.main .inhalt img:hover {
+	background-color: #eee;
+	color: black;
+	padding: 0px 0px 0px 0px;
+	border: 4px solid black;
+	margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+# robots.txt zu http://www.curious-unifox.com/
+
+
+User-agent: *
+Disallow: /cpp/
+Disallow: /datenbanken/
+Disallow: /impressum/
+Disallow: /java/
+Disallow: /logs/
+Disallow: /speichermedien/
+Disallow: /farben.css

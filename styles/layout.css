@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document describing the layout, meaning the sizes and locations of the boxes/blocks */
+
+
+#grad1 {
+  height: 150px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#111, #222); /* Standard syntax (must be last) */
+}
+
+/**********************************************/
+
+
+#layout {
+	width:780px;
+	margin:auto;
+	box-shadow: 3px 3px 7px #111;	
+}
+
+
+.header {
+	width: 780px;
+	max-height: 230px;	
+	margin: auto;
+}
+/*
+.header .farbe {
+	background-image:url(../images/header_BG.png);
+	background-position:center;
+}*/
+.header .inhalt #grad1 {
+	display: block;
+	padding: 0px 0px 0px 0px;
+}
+.header .inhalt {
+	padding:10px 10px 10px 10px;
+}
+.header .img {
+	display: inline;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+	margin: 0px;
+	position: relative;
+}
+.header img {
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+	margin: 0px;
+	
+    width: 180px;
+    height: 180px;
+	
+}
+
+
+/**********************************************/
+
+
+
+.main{
+	width:780px;
+	margin:auto;
+	
+	min-height:400px;
+	background-color:#FFD;
+}
+
+
+/**********************************************/
+
+.footer{
+	width:780px;
+	margin:auto;
+	min-height:60px;
+}
+.footer .farbe{
+	background-color:#222;
+}
+.footer .inhalt{
+	padding:10px 10px 10px 10px;
+}
