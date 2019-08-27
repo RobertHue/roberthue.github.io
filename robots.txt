@@ -1,11 +1,9 @@
-# robots.txt zu http://www.curious-unifox.com/
+# robots.txt zu https://roberthue.github.io/
+# not every Robot/search engine follows what is inside robots.txt
+# User-agent		defines the robot you are refering to (* for all kinds of)			
+# Disallow			defines the rules you don't want the robot to visit and index
 
 
+# disallow the following for all robots (empty lines are not allowed in a data sets
 User-agent: *
 Disallow: /cpp/
-Disallow: /datenbanken/
-Disallow: /impressum/
-Disallow: /java/
-Disallow: /logs/
-Disallow: /speichermedien/
-Disallow: /farben.css
