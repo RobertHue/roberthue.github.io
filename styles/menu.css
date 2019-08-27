@@ -2,29 +2,6 @@
 /* CSS Document describing the style of the menu/horizontal top navigation bar */
 
 
-/*  */
-/* all a (link) elements which are direct children of .inhalt which is inside of .menu */
-/*  
-.menu .inhalt > a{
-	color:black;
-	text-decoration:none;	removes underlining of links 
-	margin: 0px 20px 0px 0px;
-	font-size:30px;
-}
-
-.menu .inhalt > a:hover{
-	text-decoration:underline;	
-}
-
-
-
-.menu{
-width:760px;
-min-height:0px;	
-margin:auto;
-}*/
-
-
 /**********************************************/
 
 div #Rahmen{
@@ -46,7 +23,7 @@ ul#Navigation li{
 	float: left; 
 	/* ohne width - nach CSS 2.1 erlaubt */
 	position:relative;
-	margin:0.4em; padding:0px;	
+	margin:0.2em; padding:0px;	
 }
 
 
@@ -72,9 +49,9 @@ ul#Navigation li ul li {
 
 ul#Navigation a, ul#Navigation span {
 	display: block;    
-	width: 6.4em;  
+	width: 10em;  
 	/* Breite den in li enthaltenen Elementen zuweisen */
-	padding: 0.7em 2em;
+	padding: 0.7em 0em;
 	text-decoration: none; 
 	font-weight: bold;
 	border: 1px solid black;
@@ -82,7 +59,9 @@ ul#Navigation a, ul#Navigation span {
 	border-top-color: white;
 	color: #CC3300; 
 
-	background-image:url(./header_BG.png);
+	/*background-image:url(./header_BG.png);*/
+	background-image: linear-gradient(#222, #333); /* Standard syntax (must be last) */
+	background-color: gray; /* For browsers that do not support gradients */
 	background-position:center;
 } 
 ul#Navigation a:hover, ul#Navigation span, li a#aktuell {
@@ -106,4 +85,4 @@ ul#Navigation li>ul {
 }
 ul#Navigation li:hover>ul, ul#Navigation li>a#aktuell+ul {
 	display: block;
-}s
+}

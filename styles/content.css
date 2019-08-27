@@ -6,13 +6,13 @@ usage:
 	into the head tag
  */
 
-/* place new images in the center as block */
+/* place new images in the center as block 
 .main .inhalt img {
 	display: block;
 	padding: 0px 0px 0px 0px;
 	border: 4px solid transparent;
 	margin: 0 auto;
-}
+}*/
 
 .main .inhalt img:hover {
 	background-color: #eee;

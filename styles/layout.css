@@ -3,9 +3,9 @@
 
 /* gradient of the top bar */
 #grad1 {
-  height: 175px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#111, #222); /* Standard syntax (must be last) */
+	height: 175px;
+	background-color: gray; /* For browsers that do not support gradients */
+	background-image: linear-gradient(#111, #222); /* Standard syntax (must be last) */
 }
 
 /**********************************************/
@@ -49,8 +49,6 @@
 
 
 /**********************************************/
-
-
 
 .main{
 	width:780px;
