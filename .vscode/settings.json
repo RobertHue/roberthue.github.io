@@ -1,0 +1,25 @@
+{
+    // files
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": true,
+    },
+    // editor
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "trailing",
+    "editor.suggestSelection": "first",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+        80
+    ],
+    // markdown
+    "markdown.validate.enabled": true,
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.wordWrap": "wordWrapColumn",
+    },
+}
