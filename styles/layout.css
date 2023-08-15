@@ -3,72 +3,72 @@
 
 /* gradient of the top bar */
 #grad1 {
-	height: 175px;
-	background-color: gray; /* For browsers that do not support gradients */
-	background-image: linear-gradient(#111, #222); /* Standard syntax (must be last) */
+    height: 175px;
+    background-color: gray; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#111, #222); /* Standard syntax (must be last) */
 }
 
 /**********************************************/
 
 
 #layout {
-	width: 780px;
-	margin: auto;
-	box-shadow: 3px 3px 7px #111;	
+    width: 780px;
+    margin: auto;
+    box-shadow: 3px 3px 7px #111;
 }
 
 
 .header {
-	float: left;
-	width: 780px;
-	max-height: 200px;	
-	margin: auto;
+    float: left;
+    width: 780px;
+    max-height: 200px;
+    margin: auto;
 }
 
 .header .inhalt {
-	padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 /* image on website (in the top right corner) */
 .header h1 {
-	float: left;
+    float: left;
 }
 
 /* image on website (in the top right corner) */
 .header img {
-	padding: 0px 0px 0px 0px;
-	border: 0px;
-	margin: 0px;
-	
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 0px;
+
     width: 180px;
     height: 180px;
-	
-	position: relative;
-	float: right;
+
+    position: relative;
+    float: right;
 }
 
 
 /**********************************************/
 
 .main{
-	width:780px;
-	margin:auto;
-	
-	min-height:400px;
-	background-color:#FFD;
+    width:780px;
+    margin:auto;
+
+    min-height:400px;
+    background-color:#FFD;
 }
 
 
 /**********************************************/
 
 .footer{
-	width:780px;
-	margin:auto;
-	min-height:60px;
+    width:780px;
+    margin:auto;
+    min-height:60px;
 }
 .footer .farbe{
-	background-color:#222;
+    background-color:#222;
 }
 .footer .inhalt{
-	padding:10px 10px 10px 10px;
+    padding:10px 10px 10px 10px;
 }

@@ -1,15 +1,15 @@
 /* style-sheet CSS describing the contents styles
 
 usage:
-	add 
-		<link href="styles/style.css" rel="stylesheet" type="text/css">
-	into the head tag
+    add
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+    into the head tag
  */
 
 /* hover over images will make border appear */
 .main .inhalt img:hover {
-	color: black;
-	border: 1px solid black;
-	padding: 0px 0px 0px 0px;
-	margin: 0 auto;
+    color: black;
+    border: 1px solid black;
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
 }

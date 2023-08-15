@@ -5,73 +5,73 @@
 /**********************************************/
 
 div #Rahmen{
-	background-color:#222222;
-	margin:auto;
-	width=780px;
+    background-color:#222222;
+    margin:auto;
+    width=780px;
 
-	padding: 0.8em;
+    padding: 0.8em;
 }
 div#Rahmen div{
-	clear:left;			
+    clear:left;
 }
 ul#Navigation{
-	margin:0px; padding:0px;	
-	text-align:center;
+    margin:0px; padding:0px;
+    text-align:center;
 }
 ul#Navigation li{
-	list-style:none;    
-	float: left; 
-	/* ohne width - nach CSS 2.1 erlaubt */
-	position:relative;
-	margin:0.2em; padding:0px;	
+    list-style:none;
+    float: left;
+    /* ohne width - nach CSS 2.1 erlaubt */
+    position:relative;
+    margin:0.2em; padding:0px;
 }
 
 
 /**********************************************/
 
 ul#Navigation li ul {
-	margin: 0; padding: 0;
-	position: absolute;
-	top: 1.7em; left: -0.4em;    
-	display: none;  /* Unternavigation ausblenden */
-}   
+    margin: 0; padding: 0;
+    position: absolute;
+    top: 1.7em; left: -0.4em;
+    display: none;  /* Unternavigation ausblenden */
+}
 ul#Navigation li:hover ul {
-	display: block;  
-	/* Unternavigation in modernen Browsern einblenden */
+    display: block;
+    /* Unternavigation in modernen Browsern einblenden */
 }
 ul#Navigation li ul li {
-	float: none;
-	display: block;
-	margin-bottom: 0.2em;
+    float: none;
+    display: block;
+    margin-bottom: 0.2em;
 }
 
 /**********************************************/
 
 ul#Navigation a, ul#Navigation span {
-	display: block;    
-	width: 10em;  
-	/* Breite den in li enthaltenen Elementen zuweisen */
-	padding: 0.7em 0em;
-	text-decoration: none; 
-	font-weight: bold;
-	border: 1px solid black;
-	border-left-color: white; 
-	border-top-color: white;
-	color: #CC3300; 
+    display: block;
+    width: 10em;
+    /* Breite den in li enthaltenen Elementen zuweisen */
+    padding: 0.7em 0em;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    border-left-color: white;
+    border-top-color: white;
+    color: #CC3300;
 
-	/*background-image:url(./header_BG.png);*/
-	background-image: linear-gradient(#222, #333); /* Standard syntax (must be last) */
-	background-color: gray; /* For browsers that do not support gradients */
-	background-position:center;
-} 
+    /*background-image:url(./header_BG.png);*/
+    background-image: linear-gradient(#222, #333); /* Standard syntax (must be last) */
+    background-color: gray; /* For browsers that do not support gradients */
+    background-position:center;
+}
 ul#Navigation a:hover, ul#Navigation span, li a#aktuell {
-	border-color: white;
-	border-left-color: black; 
-	border-top-color: black;
-	color: #FFD; 
-	background-color: gray;
-}  
-ul#Navigation li ul span {  
+    border-color: white;
+    border-left-color: black;
+    border-top-color: black;
+    color: #FFD;
+    background-color: gray;
+}
+ul#Navigation li ul span {
 /* aktuelle Unterseite kennzeichnen */
 background-color: maroon;
 }
@@ -81,8 +81,8 @@ background-color: maroon;
 
 /* Erweiterung zur dynamischen Ein-/Ausblendung */
 ul#Navigation li>ul {
-	display: none; top: 1.6em;
+    display: none; top: 1.6em;
 }
 ul#Navigation li:hover>ul, ul#Navigation li>a#aktuell+ul {
-	display: block;
+    display: block;
 }
