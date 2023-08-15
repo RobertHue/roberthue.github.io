@@ -8,8 +8,8 @@ usage:
 
 /* hover over images will make border appear */
 .main .inhalt img:hover {
-    color: black;
-    border: 1px solid black;
-    padding: 0px 0px 0px 0px;
-    margin: 0 auto;
+  color: black;
+  border: 1px solid black;
+  padding: 0px 0px 0px 0px;
+  margin: 0 auto;
 }

@@ -1,68 +1,59 @@
 @charset "utf-8";
 /* CSS Document describing the FONT style & size & colors */
 
-
 /******************
     GENERAL FONTS
 *******************/
 body {
-    font-family: Verdana, SunSans-Regular, Sans-Serif;
-    font-size: 11px;
-    color: #333;
-    background-color:#333;
+  font-family: Verdana, SunSans-Regular, Sans-Serif;
+  font-size: 11px;
+  color: #333;
+  background-color: #333;
 }
 
 h1 {
-    color:#333;
-    font-size:50px;
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    padding:30px;
+  color: #333;
+  font-size: 50px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 30px;
 }
-
-
-
 
 /*************************
     MAIN CONTENT FONTS
 **************************/
 
 .main .inhalt {
-    padding:10px 10px 10px 10px;
-    font-size:14px;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
 }
 .main .inhalt ul li {
-    list-style:none;
+  list-style: none;
 }
-
-
 
 .main a {
-    text-decoration:none;
-    color:#06C;
-    font-weight:bold;
+  text-decoration: none;
+  color: #06c;
+  font-weight: bold;
 }
 .main a:hover {
-    text-decoration:underline;
-    /*font-size:large;*/
+  text-decoration: underline;
+  /*font-size:large;*/
 }
-
-
-
 
 /******************
     FOOTER FONTS
 *******************/
 .footer {
-    color:#FFD;
-    text-align:right;
+  color: #ffd;
+  text-align: right;
 }
 .footer a {
-    text-decoration:none;
-    font-style:italic;
-    font-weight:bold;
-    font-size:1.1em;
-    color:#CC3300;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #cc3300;
 }
 .footer a:hover {
-    text-decoration:underline;
+  text-decoration: underline;
 }
