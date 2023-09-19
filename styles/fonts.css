@@ -22,11 +22,11 @@ h1 {
     MAIN CONTENT FONTS
 **************************/
 
-.main .inhalt {
+.main .content {
   padding: 10px 10px 10px 10px;
   font-size: 14px;
 }
-.main .inhalt ul li {
+.main .content ul li {
   list-style: none;
 }
 
