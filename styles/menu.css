@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document describing the style of the menu/horizontal top navigation bar */
+/* CSS Document describing the style of the menu/horizontal top nav bar */
 
 /**********************************************/
 
@@ -13,12 +13,12 @@ div #frame {
 div#frame div {
   clear: left;
 }
-ul#navigation {
+ul#nav {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
-ul#navigation li {
+ul#nav li {
   list-style: none;
   float: left;
   /* ohne width - nach CSS 2.1 erlaubt */
@@ -29,19 +29,19 @@ ul#navigation li {
 
 /**********************************************/
 
-ul#navigation li ul {
+ul#nav li ul {
   margin: 0;
   padding: 0;
   position: absolute;
   top: 1.7em;
   left: -0.4em;
-  display: none; /* Unternavigation ausblenden */
+  display: none; /* Unternav ausblenden */
 }
-ul#navigation li:hover ul {
+ul#nav li:hover ul {
   display: block;
-  /* Unternavigation in modernen Browsern einblenden */
+  /* Unternav in modernen Browsern einblenden */
 }
-ul#navigation li ul li {
+ul#nav li ul li {
   float: none;
   display: block;
   margin-bottom: 0.2em;
@@ -49,8 +49,8 @@ ul#navigation li ul li {
 
 /**********************************************/
 
-ul#navigation a,
-ul#navigation span {
+ul#nav a,
+ul#nav span {
   display: block;
   width: 10em;
   /* Breite den in li enthaltenen Elementen zuweisen */
@@ -70,8 +70,8 @@ ul#navigation span {
   background-color: gray; /* For browsers that do not support gradients */
   background-position: center;
 }
-ul#navigation a:hover,
-ul#navigation span,
+ul#nav a:hover,
+ul#nav span,
 li a#aktuell {
   border-color: white;
   border-left-color: black;
@@ -79,7 +79,7 @@ li a#aktuell {
   color: #ffd;
   background-color: gray;
 }
-ul#navigation li ul span {
+ul#nav li ul span {
   /* aktuelle Unterseite kennzeichnen */
   background-color: maroon;
 }
@@ -87,11 +87,11 @@ ul#navigation li ul span {
 /**********************************************/
 
 /* Erweiterung zur dynamischen Ein-/Ausblendung */
-ul#navigation li > ul {
+ul#nav li > ul {
   display: none;
   top: 1.6em;
 }
-ul#navigation li:hover > ul,
-ul#navigation li > a#aktuell + ul {
+ul#nav li:hover > ul,
+ul#nav li > a#aktuell + ul {
   display: block;
 }
