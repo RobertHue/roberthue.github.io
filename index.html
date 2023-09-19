@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
     <!-- do not follow the links on this website -->
     <meta name="robots" content="nofollow" />
@@ -29,131 +23,104 @@
     <link href="styles/fonts.css" rel="stylesheet" media="screen" />
     <link href="styles/menu.css" rel="stylesheet" media="screen" />
     <link href="styles/modal_image.css" rel="stylesheet" media="screen" />
+    <link href="styles/main.css" rel="stylesheet" media="screen" />
 
     <!-- Load JS (parsing is stopped until loaded) -->
 
     <!-- tab icon of the site and title -->
     <link rel="shortcut icon" href="images/shell32_230.ico" />
     <title>RobHue - Homepage</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="layout">
-      <div class="header">
-        <div id="gradient" class="content">
-          <h1>RobHue</h1>
-          <img src="images/rob-headje-alpha.png" alt="image of a lion" />
-        </div>
-      </div>
-
-      <div id="frame" class="content color">
-        <ul id="nav">
-          <li><span>HOME</span></li>
-          <li><a href="./about.html">ABOUT</a></li>
-        </ul>
-        <div></div>
-      </div>
-
-      <div class="main">
-        <div class="content">
-          <h3>Hello dear visitor :)</h3>
-          <br />
-          <p>
-            <!-- Trigger the Modal
-            <img id="myImg" src="images/img_snow.jpg" alt="Snow" style="width:100%;max-width:300px">
-            -->
-
-            <a class="pop">
-              <img
-                src="images/img_snow.jpg"
-                class="rounded"
-                style="width: 400px; height: 264px"
-              />
-            </a>
-            <br />
-            <br />
-
-            <a class="pop">
-              <img
-                src="images/somePlant02.jpg"
-                class="rounded"
-                style="width: 400px; height: 264px"
-              />
-            </a>
-            <br />
-            <br />
-
-            <a class="pop">
-              <img
-                src="https://cdn-images-1.medium.com/max/2600/1*694y5GwOWsqflOtu_4Lj-g.png"
-                class="rounded"
-                style="width: 400px; height: 264px"
-              />
-            </a>
-            <br />
-            <br />
-          </p>
-
-          <div
-            class="modal fade"
-            id="imagemodal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="myModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-lg modal-dialog-centered"
-              role="document"
-            >
-              <div class="modal-content">
-                <div class="modal-body">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span>
-                    <span class="sr-only">Close</span>
-                  </button>
-                  <img src="" class="imagepreview" style="width: 100%" />
-                  <div id="caption"></div>
-                </div>
-              </div>
+        <div class="header">
+            <div id="gradient" class="content">
+                <h1>RobHue</h1>
+                <img src="images/rob-headje-alpha.png" alt="image of a lion" />
             </div>
-          </div>
-
-          <br />
-          <br />
-          <br />
         </div>
-      </div>
 
-      <div class="footer">
-        <div class="content color">
-          <p>
-            &copy; 2019 - 2023 by RobHue
-            <br />
-            <a href="./impressum.html">Impressum</a>
-          </p>
+        <div id="frame" class="content color">
+            <ul id="nav">
+                <li><span>HOME</span></li>
+                <li><a href="./about.html">ABOUT</a></li>
+            </ul>
+            <div></div>
         </div>
-      </div>
+
+        <div class="main">
+            <div class="content">
+                <h3>Hello dear visitor :)</h3>
+                <br />
+                <p>
+
+                    <a class="pop">
+                        <img src="images/img_snow.jpg" class="rounded" style="width: 400px; height: 264px" />
+                    </a>
+                    <br />
+                    <br />
+
+                    <a class="pop">
+                        <img src="images/somePlant02.jpg" class="rounded" style="width: 400px; height: 264px" />
+                    </a>
+                    <br />
+                    <br />
+
+                    <a class="pop">
+                        <img src="https://cdn-images-1.medium.com/max/2600/1*694y5GwOWsqflOtu_4Lj-g.png" class="rounded"
+                            style="width: 400px; height: 264px" />
+                    </a>
+                    <br />
+                    <br />
+                </p>
+
+                <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span aria-hidden="true">&times;</span>
+                                    <span class="sr-only">Close</span>
+                                </button>
+                                <img src="" class="imagepreview" style="width: 100%" />
+                                <div id="caption"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="content color">
+                <p>
+                    &copy; 2019 - 2023 by RobHue
+                    <br />
+                    <a href="./impressum.html">Impressum</a>
+                </p>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <script src="scripts/modal_enlarge_image.js"></script>
-  </body>
+</body>
+
 </html>
