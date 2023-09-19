@@ -7,14 +7,13 @@
         "**/.git": true,
     },
     // editor
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 4,
     "editor.renderWhitespace": "trailing",
     "editor.suggestSelection": "first",
     "editor.bracketPairColorization.enabled": false,
     "editor.insertSpaces": true,
     "editor.rulers": [
-        80
+        120
     ],
     // markdown
     "markdown.validate.enabled": true,
@@ -27,6 +26,6 @@
     // Configures if the built-in HTML language suggests HTML5 tags, properties and values.
     "html.suggest.html5": true,
     "[html]": {
-        "editor.foldingStrategy": "indentation"
+        "editor.foldingStrategy": "indentation",
     },
 }

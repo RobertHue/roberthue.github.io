@@ -1,9 +1,8 @@
 {
 	"recommendations": [
-        "esbenp.prettier-vscode",
         "yzhang.markdown-all-in-one",
         "zignd.html-css-class-completion",
         "ashiqurrahmananik.html-snippets-library",
-        "sidthesloth.html5-boilerplate"
+        "sidthesloth.html5-boilerplate",
     ]
 }
