@@ -43,7 +43,7 @@ figcaption {
     color: #cc3300;
     display: grid;
     grid-template-rows: max-content 200px 1fr;
-    border: 1px solid #999;
+    border: 1px solid #222222;
     border-radius: 3px;
     box-shadow: 5px 5px 10px #555;
 }
