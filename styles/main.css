@@ -39,7 +39,10 @@ nav ul li a:hover {
 /* about me */
 
 #welcome-section {
-  top: 20;
+  line-height: 1.6;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
 }
 
 /* the projects section */
@@ -48,6 +51,55 @@ nav ul li a:hover {
 .work .work-header {
   color: #111;
   font-weight: normal;
+}
+
+.hr-lines:before{
+  content:"";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #333333;
+}
+
+.hr-lines{
+  position: relative;
+  /*  new lines  */
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.hr-lines:after{
+  content:"";
+  height: 2px;
+  width: 130px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: #333333;
+}
+
+
+.hr-dotted-line{
+  position: relative;
+  /*  new lines  */
+  max-width: 500px;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.hr-dotted-line:before{
+  border-top: 1px dotted #333333;
+  display: block;
+  position: relative;
+  top: -0.5em;
+  margin: 0em auto;
+  width: 100%;
+  content: "";
 }
 
 .project {

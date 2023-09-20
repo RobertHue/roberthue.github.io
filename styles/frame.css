@@ -1,0 +1,28 @@
+.rcorners1 {
+    border-radius: 15px 50px 30px 5px;
+    background: #ffde;
+    background: #ffde;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #ffde;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.rcorners3 {
+    border-radius: 15px 50px;
+    background: #ffde;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.rcorners4 {
+    border-radius: 15px;
+    background: #ffde;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
