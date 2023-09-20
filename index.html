@@ -24,16 +24,27 @@
     <link href="styles/menu.css" rel="stylesheet" media="screen" />
     <link href="styles/modal_image.css" rel="stylesheet" media="screen" />
     <link href="styles/main.css" rel="stylesheet" media="screen" />
+    <link href="styles/figures.css" rel="stylesheet" media="screen" />
 
     <!-- Load JS (parsing is stopped until loaded) -->
 
     <!-- tab icon of the site and title -->
-    <link rel="shortcut icon" href="images/shell32_230.ico" />
+    <link rel="shortcut icon" href="images/rob-headje-alpha-48x48.ico" />
     <title>RobHue - Homepage</title>
 </head>
 
 <body>
+    <!-- <nav>
+        <ul id="navbar">
+            <li><a href="#welcome" rel="internal">Welcome</a></li>
+            <li><a href="#projects" rel="internal">Projects</a></li>
+            <li><a href="#contact" rel="internal">Contact</a></li>
+            <li><a href="#about-me" rel="internal">About</a></li>
+        </ul>
+    </nav> -->
+
     <div id="layout">
+
         <div class="header">
             <div id="gradient" class="content">
                 <h1>RobHue</h1>
@@ -44,83 +55,85 @@
         <div id="frame" class="content color">
             <ul id="nav">
                 <li><span>HOME</span></li>
+                <li><a href="#projects" rel="internal">Projects</a></li>
                 <li><a href="./about.html">ABOUT</a></li>
+                <!-- <li><a href="https://github.com/RobertHue">
+                        <img src="images/GitHub_Logo.png" class="figure-img img-fluid rounded" alt="..." />
+                    </a>
+                </li> -->
             </ul>
             <div></div>
         </div>
 
+
         <div class="main">
             <div class="content">
-                <h3>Hello dear visitor :)</h3>
-                <br />
-                <p>
 
-                    <a class="pop">
-                        <img src="images/img_snow.jpg" class="rounded" style="width: 400px; height: 264px" />
-                    </a>
-                    <br />
-                    <br />
+                <div id="welcome-section">
+                    <h1>Welcome to my world</h1>
+                    <p>Gently hatching from the programming egg.</p>
+                </div>
 
-                    <a class="pop">
-                        <img src="images/somePlant02.jpg" class="rounded" style="width: 400px; height: 264px" />
-                    </a>
-                    <br />
-                    <br />
+                <div id="projects" class="work">
+                    <h2 class="work-header">Here is what I have done</h2>
 
-                    <a class="pop">
-                        <img src="https://cdn-images-1.medium.com/max/2600/1*694y5GwOWsqflOtu_4Lj-g.png" class="rounded"
-                            style="width: 400px; height: 264px" />
-                    </a>
-                    <br />
-                    <br />
-                </p>
+                    <h3>Kemono-Tiger 2022 Project</h3>
 
-                <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <button type="button" class="close" data-dismiss="modal">
-                                    <span aria-hidden="true">&times;</span>
-                                    <span class="sr-only">Close</span>
-                                </button>
-                                <img src="" class="imagepreview" style="width: 100%" />
-                                <div id="caption"></div>
+                    <div style="text-align: center;" class="rounded">
+                        <a data-flickr-embed="true" data-footer="true"
+                            href="https://www.flickr.com/photos/189643902@N04/albums/72177720311336278"
+                            title="Kemono-Tiger 2022: Pattern &amp; Furring"><img
+                                src="https://live.staticflickr.com/65535/53200524824_d7d9bdf4c4.jpg" width="640"
+                                height="480" alt="Kemono-Tiger 2022: Pattern &amp; Furring" /></a>
+                    </div>
+
+                    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">&times;</span>
+                                        <span class="sr-only">Close</span>
+                                    </button>
+                                    <img src="" class="imagepreview" style="width: 100%" />
+                                    <div id="caption"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <br />
-                <br />
-                <br />
-            </div>
-        </div>
-
-        <div class="footer">
-            <div class="content color">
-                <p>
-                    &copy; 2019 - 2023 by RobHue
                     <br />
-                    <a href="./impressum.html">Impressum</a>
-                </p>
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="content color">
+                    <p>
+                        &copy; 2019 - 2023 by RobHue
+                        <br />
+                        <a href="./impressum.html">Impressum</a>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="scripts/modal_enlarge_image.js"></script>
+        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-    <script src="scripts/modal_enlarge_image.js"></script>
 </body>
 
 </html>
