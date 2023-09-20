@@ -14,7 +14,7 @@ body {
 
 /* Nav bar */
 
- nav ul {
+/* nav ul {
   position: fixed;
   text-align: right;
   width: 100%;
@@ -34,7 +34,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: #ababab;
-}
+} */
 
 /* about me */
 
@@ -43,6 +43,7 @@ nav ul li a:hover {
   padding-top: 10vh;
   padding-bottom: 10vh;
   text-align: center;
+    width: auto;
 }
 
 /* the projects section */
